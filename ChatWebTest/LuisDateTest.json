@@ -1,0 +1,1474 @@
+{
+  "now": "2018-07-11T01:00:00Z",
+  "tests": [
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2016-02-20T00:00:00Z",
+          "endDateTime": "2016-02-20T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "2/20/2016",
+      "entities": [
+        {
+          "entity": "2/20/2016",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 8,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2016-02-20",
+                "type": "date",
+                "value": "2016-02-20"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2016-02-20T00:00:00Z",
+          "endDateTime": "2016-02-20T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "2/20/2016",
+      "entities": [
+        {
+          "entity": "2/20/2016",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 8,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2016-02-20",
+                "type": "date",
+                "value": "2016-02-20"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+      ],
+      "assumeFuture": false,
+      "input": "2/20/2019",
+      "entities": [
+        {
+          "entity": "2/20/2019",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 8,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2019-02-20",
+                "type": "date",
+                "value": "2019-02-20"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2020-02-20T00:00:00Z",
+          "endDateTime": "2020-02-20T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "2/20/20",
+      "entities": [
+        {
+          "entity": "2/20/20",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 6,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2020-02-20",
+                "type": "date",
+                "value": "2020-02-20"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2001-02-20T00:00:00Z",
+          "endDateTime": "2001-02-20T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "2/20/01",
+      "entities": [
+        {
+          "entity": "2/20/01",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 6,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2001-02-20",
+                "type": "date",
+                "value": "2001-02-20"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-02-20T00:00:00Z",
+          "endDateTime": "2018-02-20T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "2/20/201", // invalid year
+      "entities": [
+        {
+          "entity": "2/20",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 3,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-02-20",
+                "type": "date",
+                "value": "2018-02-20"
+              },
+              {
+                "timex": "XXXX-02-20",
+                "type": "date",
+                "value": "2019-02-20"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          // Note for daterange, we advance the last day to end of the day.
+          // For months, this results in the first day of following month
+          // to be included, since Luis returns the first day of the next month
+          "dateTime": "2019-01-01T00:00:00Z",
+          "endDateTime": "2019-02-01T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "January",
+      "entities": [
+        {
+          "entity": "january",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 6,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-01",
+                "type": "daterange",
+                "start": "2018-01-01",
+                "end": "2018-02-01"
+              },
+              {
+                "timex": "XXXX-01",
+                "type": "daterange",
+                "start": "2019-01-01",
+                "end": "2019-02-01"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          // Note for daterange, we advance the last day to end of the day.
+          // For months, this results in the first day of following month
+          // to be included, since Luis returns the first day of the next month
+          "dateTime": "2018-01-01T00:00:00Z",
+          "endDateTime": "2018-02-01T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "January",
+      "entities": [
+        {
+          "entity": "january",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 6,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-01",
+                "type": "daterange",
+                "start": "2018-01-01",
+                "end": "2018-02-01"
+              },
+              {
+                "timex": "XXXX-01",
+                "type": "daterange",
+                "start": "2019-01-01",
+                "end": "2019-02-01"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-02T00:00:00Z",
+          "endDateTime": "2018-07-09T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "last week",
+      "entities": [
+        {
+          "entity": "last week",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 8,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-W27",
+                "type": "daterange",
+                "start": "2018-07-02",
+                "end": "2018-07-09"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-16T00:00:00Z",
+          "endDateTime": "2018-07-23T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "next week",
+      "entities": [
+        {
+          "entity": "next week",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 8,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-W32",
+                "type": "daterange",
+                "start": "2018-07-16",
+                "end": "2018-07-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2017-11-23T00:00:00Z",
+          "endDateTime": "2017-11-23T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "last thanksgiving",
+      "entities": [
+        {
+          "entity": "thanksgiving",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 5,
+          "endIndex": 16,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-11-WXX-4-4",
+                "type": "date",
+                "value": "2017-11-23"
+              },
+              {
+                "timex": "XXXX-11-WXX-4-4",
+                "type": "date",
+                "value": "2018-11-22"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2019-05-27T00:00:00Z",
+          "endDateTime": "2019-05-27T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "memorial day",
+      "entities": [
+        {
+          "entity": "memorial day",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-05-WXX-1-4",
+                "type": "date",
+                "value": "2018-05-28"
+              },
+              {
+                "timex": "XXXX-05-WXX-1-4",
+                "type": "date",
+                "value": "2019-05-27"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-10T00:00:00Z",
+          "endDateTime": "2018-07-10T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "yesterday",
+      "entities": [
+        {
+          "entity": "yesterday",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 8,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-10",
+                "type": "date",
+                "value": "2018-07-10"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+      ],
+      "assumeFuture": true,
+      "input": "yesterday",
+      "entities": [
+        {
+          "entity": "yesterday",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 8,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-10",
+                "type": "date",
+                "value": "2018-07-10"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+      ],
+      "assumeFuture": false,
+      "input": "tomorrow",
+      "entities": [
+        {
+          "entity": "tomorrow",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 7,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-12",
+                "type": "date",
+                "value": "2018-07-12"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-12T00:00:00Z",
+          "endDateTime": "2018-07-12T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "tomorrow",
+      "entities": [
+        {
+          "entity": "tomorrow",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 7,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-12",
+                "type": "date",
+                "value": "2018-07-12"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-11T00:00:00Z",
+          "endDateTime": "2018-07-11T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "today",
+      "entities": [
+        {
+          "entity": "today",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 4,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11",
+                "type": "date",
+                "value": "2018-07-11"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-11T00:00:00Z",
+          "endDateTime": "2018-07-11T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "today",
+      "entities": [
+        {
+          "entity": "today",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 4,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11",
+                "type": "date",
+                "value": "2018-07-11"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-12T00:00:00Z",
+          "time": "00:00:00",
+          "modifier": "after"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "after today",
+      "entities": [
+        {
+          "entity": "after today",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 10,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11",
+                "Mod": "after",
+                "type": "daterange",
+                "start": "2018-07-11"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+      ],
+      "assumeFuture": false,
+      "input": "after today",
+      "entities": [
+        {
+          "entity": "after today",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 10,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11",
+                "Mod": "after",
+                "type": "daterange",
+                "start": "2018-07-11"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "endDateTime": "2018-07-11T00:00:00Z",
+          "endTime": "00:00:00",
+          "modifier": "before"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "before today",
+      "entities": [
+        {
+          "entity": "before today",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11",
+                "Mod": "before",
+                "type": "daterange",
+                "end": "2018-07-11"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+      ],
+      "assumeFuture": true,
+      "input": "before today",
+      "entities": [
+        {
+          "entity": "before today",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11",
+                "Mod": "before",
+                "type": "daterange",
+                "end": "2018-07-11"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "endDateTime": "2018-07-14T00:00:00Z",
+          "endTime": "00:00:00",
+          "modifier": "before"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "before saturday",
+      "entities": [
+        {
+          "entity": "before saturday",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 14,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-6",
+                "Mod": "before",
+                "type": "daterange",
+                "end": "2018-07-07"
+              },
+              {
+                "timex": "XXXX-WXX-6",
+                "Mod": "before",
+                "type": "daterange",
+                "end": "2018-07-14"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-11T20:00:00Z",
+          "endDateTime": "2018-07-11T23:59:59Z",
+          "time": "20:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "tonight",
+      "entities": [
+        {
+          "entity": "tonight",
+          "type": "builtin.datetimeV2.datetimerange",
+          "startIndex": 0,
+          "endIndex": 6,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11TNI",
+                "type": "datetimerange",
+                "start": "2018-07-11 20:00:00",
+                "end": "2018-07-11 23:59:59"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-11T08:00:00Z",
+          "endDateTime": "2018-07-11T12:00:00Z",
+          "time": "08:00:00",
+          "endTime": "12:00:00"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "this morning",
+      "entities": [
+        {
+          "entity": "this morning",
+          "type": "builtin.datetimeV2.datetimerange",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11TMO",
+                "type": "datetimerange",
+                "start": "2018-07-11 08:00:00",
+                "end": "2018-07-11 12:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+      ],
+      "assumeFuture": false,
+      "input": "this morning",
+      "entities": [
+        {
+          "entity": "this morning",
+          "type": "builtin.datetimeV2.datetimerange",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-11TMO",
+                "type": "datetimerange",
+                "start": "2018-07-11 08:00:00",
+                "end": "2018-07-11 12:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-15T16:00:00Z",
+          "endDateTime": "2018-07-15T20:00:00Z",
+          "time": "16:00:00",
+          "endTime": "20:00:00"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "sunday evening",
+      "entities": [
+        {
+          "entity": "sunday evening",
+          "type": "builtin.datetimeV2.datetimerange",
+          "startIndex": 0,
+          "endIndex": 13,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-7TEV",
+                "type": "datetimerange",
+                "start": "2018-07-08 16:00:00",
+                "end": "2018-07-08 20:00:00"
+              },
+              {
+                "timex": "XXXX-WXX-7TEV",
+                "type": "datetimerange",
+                "start": "2018-07-15 16:00:00",
+                "end": "2018-07-15 20:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-12T00:00:00Z",
+          "endDateTime": "2018-07-12T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        },
+        {
+          "dateTime": "2018-07-12T00:00:00Z",
+          "endDateTime": "2018-07-12T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "Thursday 7/12/2018",
+      "entities": [
+        {
+          "entity": "thursday",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 7,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-4",
+                "type": "date",
+                "value": "2018-07-05"
+              },
+              {
+                "timex": "XXXX-WXX-4",
+                "type": "date",
+                "value": "2018-07-12"
+              }
+            ]
+          }
+        },
+        {
+          "entity": "7/12/2018",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 9,
+          "endIndex": 17,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-12",
+                "type": "date",
+                "value": "2018-07-12"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-13T12:00:00Z",
+          "endDateTime": "2018-07-13T16:00:00Z",
+          "time": "12:00:00",
+          "endTime": "16:00:00"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "tomorrow afternoon",
+      "entities": [
+        {
+          "entity": "tomorrow afternoon",
+          "type": "builtin.datetimeV2.datetimerange",
+          "startIndex": 0,
+          "endIndex": 17,
+          "resolution": {
+            "values": [
+              {
+                "timex": "2018-07-13TAF",
+                "type": "datetimerange",
+                "start": "2018-07-13 12:00:00",
+                "end": "2018-07-13 16:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "time": "10:00:00",
+          "endTime": "10:00:00"
+        },
+        {
+          "time": "22:00:00",
+          "endTime": "22:00:00"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "10:00",
+      "entities": [
+        {
+          "entity": "10:00",
+          "type": "builtin.datetimeV2.time",
+          "startIndex": 0,
+          "endIndex": 4,
+          "resolution": {
+            "values": [
+              {
+                "timex": "T10:00",
+                "type": "time",
+                "value": "10:00:00"
+              },
+              {
+                "timex": "T22:00",
+                "type": "time",
+                "value": "22:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "time": "00:00:00",
+          "endTime": "22:00:00",
+          "modifier": "before"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "before 10pm",
+      "entities": [
+        {
+          "entity": "before 10pm",
+          "type": "builtin.datetimeV2.timerange",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "T22",
+                "Mod": "before",
+                "type": "timerange",
+                "end": "22:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "time": "18:00:00",
+          "endTime": "23:59:59",
+          "modifier": "after"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "after 6pm",
+      "entities": [
+        {
+          "entity": "after 6pm",
+          "type": "builtin.datetimeV2.timerange",
+          "startIndex": 0,
+          "endIndex": 8,
+          "resolution": {
+            "values": [
+              {
+                "timex": "T18",
+                "Mod": "after",
+                "type": "timerange",
+                "start": "18:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-09T15:00:00Z",
+          "endDateTime": "2018-07-09T23:59:59Z",
+          "time": "15:00:00",
+          "endTime": "23:59:59",
+          "modifier": "after"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "monday after 3pm",
+      "entities": [
+        {
+          "entity": "monday after 3pm",
+          "type": "builtin.datetimeV2.datetimerange",
+          "startIndex": 0,
+          "endIndex": 15,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-1T15",
+                "Mod": "after",
+                "type": "datetimerange",
+                "start": "2018-07-09 15:00:00"
+              },
+              {
+                "timex": "XXXX-WXX-1T15",
+                "Mod": "after",
+                "type": "datetimerange",
+                "start": "2018-08-06 15:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-09T00:00:00Z",
+          "endDateTime": "2018-07-09T15:00:00Z",
+          "time": "00:00:00",
+          "endTime": "15:00:00",
+          "modifier": "before"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "monday before 3pm",
+      "entities": [
+        {
+          "entity": "monday before 3pm",
+          "type": "builtin.datetimeV2.datetimerange",
+          "startIndex": 0,
+          "endIndex": 16,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-1T15",
+                "Mod": "before",
+                "type": "datetimerange",
+                "end": "2018-07-09 15:00:00"
+              },
+              {
+                "timex": "XXXX-WXX-1T15",
+                "Mod": "before",
+                "type": "datetimerange",
+                "end": "2018-08-06 15:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-14T00:00:00Z",
+          "time": "00:00:00",
+          "modifier": "after"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "after friday",
+      "entities": [
+        {
+          "entity": "after friday",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-5",
+                "Mod": "after",
+                "type": "daterange",
+                "start": "2018-07-06"
+              },
+              {
+                "timex": "XXXX-WXX-5",
+                "Mod": "after",
+                "type": "daterange",
+                "start": "2018-07-13"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-07T00:00:00Z",
+          "time": "00:00:00",
+          "modifier": "after"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "after friday",
+      "entities": [
+        {
+          "entity": "after friday",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-5",
+                "Mod": "after",
+                "type": "daterange",
+                "start": "2018-07-06"
+              },
+              {
+                "timex": "XXXX-WXX-5",
+                "Mod": "after",
+                "type": "daterange",
+                "start": "2018-07-13"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2019-06-16T10:00:00Z",
+          "endDateTime": "2019-06-16T10:00:00Z",
+          "time": "10:00:00",
+          "endTime": "10:00:00"
+        },
+        {
+          "dateTime": "2019-06-16T22:00:00Z",
+          "endDateTime": "2019-06-16T22:00:00Z",
+          "time": "22:00:00",
+          "endTime": "22:00:00"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "June 16th 10oclock",
+      "entities": [
+        {
+          "entity": "june 16th 10oclock",
+          "type": "builtin.datetimeV2.datetime",
+          "startIndex": 0,
+          "endIndex": 17,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-06-16T10",
+                "type": "datetime",
+                "value": "2018-06-16 10:00:00"
+              },
+              {
+                "timex": "XXXX-06-16T10",
+                "type": "datetime",
+                "value": "2019-06-16 10:00:00"
+              },
+              {
+                "timex": "XXXX-06-16T22",
+                "type": "datetime",
+                "value": "2018-06-16 22:00:00"
+              },
+              {
+                "timex": "XXXX-06-16T22",
+                "type": "datetime",
+                "value": "2019-06-16 22:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-13T22:00:00Z",
+          "endDateTime": "2018-07-13T22:00:00Z",
+          "time": "22:00:00",
+          "endTime": "22:00:00"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "friday 10pm",
+      "entities": [
+        {
+          "entity": "friday 10pm",
+          "type": "builtin.datetimeV2.datetime",
+          "startIndex": 0,
+          "endIndex": 10,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-5T22",
+                "type": "datetime",
+                "value": "2018-07-06 22:00:00"
+              },
+              {
+                "timex": "XXXX-WXX-5T22",
+                "type": "datetime",
+                "value": "2018-07-13 22:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-06T22:00:00Z",
+          "endDateTime": "2018-07-06T22:00:00Z",
+          "time": "22:00:00",
+          "endTime": "22:00:00"
+        }
+      ],
+      "assumeFuture": false,
+      "input": "friday 10pm",
+      "entities": [
+        {
+          "entity": "friday 10pm",
+          "type": "builtin.datetimeV2.datetime",
+          "startIndex": 0,
+          "endIndex": 10,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-WXX-5T22",
+                "type": "datetime",
+                "value": "2018-07-06 22:00:00"
+              },
+              {
+                "timex": "XXXX-WXX-5T22",
+                "type": "datetime",
+                "value": "2018-07-13 22:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-16T14:00:00Z",
+          "endDateTime": "2018-07-16T20:00:00Z",
+          "time": "14:00:00",
+          "endTime": "20:00:00"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "monday 2-8pm",
+      "entities": [
+        {
+          "entity": "monday 2-8pm",
+          "type": "builtin.datetimeV2.datetimerange",
+          "startIndex": 0,
+          "endIndex": 11,
+          "resolution": {
+            "values": [
+              {
+                "timex": "(XXXX-WXX-1T14,XXXX-WXX-1T20,PT6H)",
+                "type": "datetimerange",
+                "start": "2018-07-09 14:00:00",
+                "end": "2018-07-09 20:00:00"
+              },
+              {
+                "timex": "(XXXX-WXX-1T14,XXXX-WXX-1T20,PT6H)",
+                "type": "datetimerange",
+                "start": "2018-07-16 14:00:00",
+                "end": "2018-07-16 20:00:00"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-12T00:00:00Z",
+          "endDateTime": "2018-07-14T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      "input": "thursday through saturday",
+      "entities": [
+        {
+          "entity": "thursday through saturday",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 24,
+          "resolution": {
+            "values": [
+              {
+                "timex": "(XXXX-WXX-4,XXXX-WXX-6,P2D)",
+                "type": "daterange",
+                "start": "2018-07-12",
+                "end": "2018-07-14"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-13T00:00:00Z",
+          "endDateTime": "2018-07-16T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      // range spanning monday.  Luis returns 2 ranges if the dates overlaps a monday (8/3/2018)
+      "input": "friday through monday",
+      "entities": [
+        {
+          "entity": "friday through monday",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 20,
+          "resolution": {
+            "values": [
+              {
+                "timex": "(XXXX-WXX-5,XXXX-WXX-1,P3D)",
+                "type": "daterange",
+                "start": "2018-07-06",
+                "end": "2018-07-09"
+              },
+              {
+                "timex": "(XXXX-WXX-5,XXXX-WXX-1,P3D)",
+                "type": "daterange",
+                "start": "2018-07-13",
+                "end": "2018-07-16"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-06T00:00:00Z",
+          "endDateTime": "2018-07-09T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      // range spanning monday.  Luis returns 2 ranges if the dates overlaps a monday (8/3/2018)
+      "input": "friday through monday",
+      "entities": [
+        {
+          "entity": "friday through monday",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 20,
+          "resolution": {
+            "values": [
+              {
+                "timex": "(XXXX-WXX-5,XXXX-WXX-1,P3D)",
+                "type": "daterange",
+                "start": "2018-07-06",
+                "end": "2018-07-09"
+              },
+              {
+                "timex": "(XXXX-WXX-5,XXXX-WXX-1,P3D)",
+                "type": "daterange",
+                "start": "2018-07-13",
+                "end": "2018-07-16"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-10T00:00:00Z",
+          "endDateTime": "2018-07-13T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": true,
+      // Range that overlaps with current day
+      "input": "tuesday through friday",
+      "entities": [
+        {
+          "entity": "tuesday through friday",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 21,
+          "resolution": {
+            "values": [
+              {
+                "timex": "(XXXX-WXX-2,XXXX-WXX-5,P3D)",
+                "type": "daterange",
+                "start": "2018-07-10",
+                "end": "2018-07-13"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+        {
+          "dateTime": "2018-07-10T00:00:00Z",
+          "endDateTime": "2018-07-13T23:59:59Z",
+          "time": "00:00:00",
+          "endTime": "23:59:59"
+        }
+      ],
+      "assumeFuture": false,
+      // Range that overlaps with current day
+      "input": "tuesday through friday",
+      "entities": [
+        {
+          "entity": "tuesday through friday",
+          "type": "builtin.datetimeV2.daterange",
+          "startIndex": 0,
+          "endIndex": 21,
+          "resolution": {
+            "values": [
+              {
+                "timex": "(XXXX-WXX-2,XXXX-WXX-5,P3D)",
+                "type": "daterange",
+                "start": "2018-07-10",
+                "end": "2018-07-13"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "expectedDates": [
+      ],
+      "assumeFuture": false,
+      // Range that overlaps with current day
+      "input": "Christmas 2018",
+      "entities": [
+        {
+          "entity": "christmas 2018",
+          "type": "builtin.datetimeV2.date",
+          "startIndex": 0,
+          "endIndex": 13,
+          "resolution": {
+            "values": [
+              {
+                "timex": "XXXX-XX-2018",
+                "type": "date",
+                "value": "not resolved"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,883 @@
+###
+# AVA Chat Engine is a chat bot API.
+# 
+# Copyright (C) 2015-2019  Asurion, LLC
+# 
+# AVA Chat Engine is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# AVA Chat Engine is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with AVA Chat Engine.  If not, see <https://www.gnu.org/licenses/>.
+###
+Model_Code,Make,Model,Display Name
+APPIPHO1,Apple,iPhone,Apple iPhone
+APPIPHO2,Apple,iPhone 2,Apple iPhone 2
+APPIPHO3,Apple,iPhone 3,Apple iPhone 3
+APPIPHO3G,Apple,iPhone 3G,Apple iPhone 3G
+APPIPHO3GS,Apple,iPhone 3GS,Apple iPhone 3GS
+APPIPHO4,Apple,iPhone 4,Apple iPhone 4
+APPIPHO4S,Apple,iPhone 4s,Apple iPhone 4S
+APPIPHO5,Apple,iPhone 5,Apple iPhone 5
+APPIPHO5S,Apple,iPhone 5s,Apple iPhone 5S
+APPIPHO5C,Apple,iPhone 5c,Apple iPhone 5C
+APPIPHO6,Apple,iPhone 6,Apple iPhone 6
+APPIPHO6P,Apple,iPhone 6 Plus,Apple iPhone 6 Plus
+APPIPHO6P,Apple,iPhone 6+,Apple iPhone 6 Plus
+APPIPHO6P,Apple,iPhone 6 +,Apple iPhone 6 Plus
+APPIPHO6P,Apple,iPhone 6p,Apple iPhone 6 Plus
+APPIPHO6S,Apple,iPhone 6s,Apple iPhone 6S
+APPIPHO6SP,Apple,iPhone 6s Plus,Apple iPhone 6S Plus
+APPIPHO6SP,Apple,iPhone 6s+,Apple iPhone 6S Plus
+APPIPHO6SP,Apple,iPhone 6sp,Apple iPhone 6S Plus
+APPIPHO6SP,Apple,iPhone 6s +,Apple iPhone 6S Plus
+APPIPHOSE,Apple,iPhone se,Apple iPhone SE
+APPIPHO7,Apple,iPhone 7,Apple iPhone 7
+APPIPHO7P,Apple,iPhone 7 Plus,Apple iPhone 7 Plus
+APPIPHO7P,Apple,iPhone 7+,Apple iPhone 7 Plus
+APPIPHO7P,Apple,iPhone 7p,Apple iPhone 7 Plus
+APPIPHO7P,Apple,iPhone 7 +,Apple iPhone 7 Plus
+APPIPHO8,Apple,iphone 8,Apple iPhone 8
+APPIPHO8P,Apple,iphone 8 Plus,Apple iPhone 8 Plus
+APPIPHO8P,Apple,iphone 8+,Apple iPhone 8 Plus
+APPIPHO8P,Apple,iphone 8p,Apple iPhone 8 Plus
+APPIPHO8P,Apple,iphone 8 +,Apple iPhone 8 Plus
+APPIPHOX,Apple,X,Apple iPhone X
+APPIPHOX,Apple,iPhone X,Apple iPhone X
+APPIPHOXR,Apple,XR,Apple iPhone XR
+APPIPHOXR,Apple,iPhone XR,Apple iPhone XR
+APPIPHOXS,Apple,XS,Apple iPhone XS
+APPIPHOXS,Apple,iPhone XS,Apple iPhone XS
+APPIPHOXSMAX,Apple,XS Max,Apple iPhone XS Max
+APPIPHOXSMAX,Apple,iPhone XS Max,Apple iPhone XS Max
+APPIPAD2,Apple,iPad 2,Apple iPad 2
+APPIPAD3,Apple,iPad 3,Apple iPad 3
+APPIPAD4,Apple,iPad 4,Apple iPad 4
+APPIPAD2017,Apple,iPad 2017,Apple iPad (2017)
+APPIPADAIR,Apple,iPad Air,Apple iPad Air
+APPIPADAIR2,Apple,iPad Air 2,Apple iPad Air 2
+APPIPADMINI,Apple,iPad Mini,Apple iPad Mini
+APPIPADMINI2,Apple,iPad Mini 2,Apple iPad Mini 2
+APPIPADMINI3,Apple,iPad Mini 3,Apple iPad Mini 3
+APPIPADMINI4,Apple,iPad Mini 4,Apple iPad Mini 4
+APPIPADPRO,Apple,iPad Pro,Apple iPad Pro
+APPIPADPRO2,Apple,iPad Pro 2,Apple iPad Pro 2
+APPIPAD,Apple,iPad,Apple iPad
+APPWATCHNIKE,Apple,Watch Nike,Apple Watch Nike
+APPWATCH3,Apple,Watch 3,Apple Watch Series 3
+htc one sv,htc, one sv,Htc  One Sv
+htc_d816x,htc,desire,Htc Desire
+htc0p4e1,htc,desire,Htc Desire
+unknown406,htc,desire 626,Htc Desire 626
+unknown407,htc,desire 526,Htc Desire 526
+htc desire 500,htc,desire 500,Htc Desire 500
+0pcv1,htc,desire 510,Htc Desire 510
+htc desire 510,htc,desire 510,Htc Desire 510
+unknown413,htc,desire 520,Htc Desire 520
+htc desire 601,htc,desire 601,Htc Desire 601
+htc desire 610,htc,desire 610,Htc Desire 610
+unknown453,htc,desire 628,Htc Desire 628
+htc desire 816 dual sim,htc,desire 816,Htc Desire 816
+unknown402,htc,desire 830,Htc Desire 830
+htc desire c,htc,desire c,Htc Desire C
+htc desire eye,htc,desire eye,Htc Desire Eye
+desire hd,htc,desire hd,Htc Desire Hd
+htc desire s,htc,desire s,Htc Desire S
+htc desire x,htc,desire x,Htc Desire X
+htc6435lvw,htc,droid,Htc Droid
+adr6410lvw,htc,droid incredible,Htc Droid Incredible
+htc evare_ul,htc,evare_ul,Htc Evare_Ul
+evo,htc,evo,Htc Evo
+pg86100,htc,evo,Htc Evo
+htc evo 3d x515m,htc,evo 3d,Htc Evo 3D
+htcevov4g,htc,evo 5v,Htc Evo 5V
+inspire 4g,htc,inspire 4g,Htc Inspire 4G
+htl22,htc,jone j one,Htc Jone J One
+unknown461,htc,nexus 9,Htc Nexus 9
+htc one,htc,one,Htc One
+htc6500lvw,htc,one htcone,Htc One Htcone
+htc_pn071,htc,one htcone m7,Htc One Htcone M7
+htc6525lvw,htc,one htcone m8,Htc One Htcone M8
+htc6600lvw,htc,one htcone max,Htc One Htcone Max
+831c,htc one,m8,Htc One M8
+htc one_m8,htc,one m8,Htc One M8
+unknown127,htc,m8,Htc One M8
+unknown411,htc,one e9,Htc One E9
+unknown410,htc,one e9s,Htc One E9s
+unknown405,htc,one m8s,Htc One M8s
+unknown154,htc,one m8,Htc One M8
+unknown401,htc,one m9 prime camera,Htc One M9 Prime Camera
+unknown402,htc,one m9,Htc One M9
+unknown403,htc,one m9+,Htc One M9+
+unknown404,htc,one m9x,Htc One M9+
+htc one max,htc,one max,Htc One Max
+htc one mini,htc,one mini,Htc One Mini
+htc one s,htc,one s,Htc One S
+c525c,htc one,sv,Htc One Sv
+htc one v,htc,one v,Htc One V
+htc one vx,htc,one vx,Htc One Vx
+htc one x,htc,one x,Htc One X
+htc one x+,htc,one x+,Htc One X+
+htconevzw,htc,one1 one 1,Htc One1 One 1
+htc vle_u,htc,ones one s,Htc Ones One S
+one x,htc,onex one x,Htc Onex One X
+unknown414,htc,htc one remix,Htc One Remix
+adr6425lvw,htc,rezound,Htc Rezound
+htc sensation 4g,htc,sensation 4g,Htc Sensation 4G
+htc sensation xe with beats audio z715e,htc,sensation xe,Htc Sensation Xe
+htc sensation xe with beats audio,htc,sensation xe with beats audio,Htc Sensation Xe With Beats Audio
+htc sensation xi with beats audio x315e,htc,sensation xl,Htc Sensation Xl
+htc sensation z710e,htc,sensation z 710 e,Htc Sensation Z 710 E
+thunderbolt,htc,thunderbolt,Htc Thunderbolt
+unknown,htc,unknown,Htc Unknown
+htc ph39100,htc,vivid,Htc Vivid
+wildfire,htc,wildfire,Htc Wildfire
+unknown459,htc,windows phone 8x,Htc Windows Phone 8X
+unknown460,htc,windows phone 8s,Htc Windows Phone 8S
+LG,LG,1010,LG 1010
+LG,LG,330W,LG 330W
+LG,LG,4400B,LG 4400B
+LG,LG,510,LG 510
+LG,LG,Accolade,LG Accolade
+LG,LG,Ally,LG Ally
+LG,LG,AX145,LG AX145
+LG,LG,AX155,LG AX155
+LG,LG,AX245,LG AX245
+LG,LG,AX275,LG AX275
+LG,LG,AX300,LG AX300
+LG,LG,AX355,LG AX355
+LG,LG,AX390,LG AX390
+LG,LG,AX4270,LG AX4270
+LG,LG,AX4750,LG AX4750
+LG,LG,AX490,LG AX490
+LG,LG,ax5000,LG ax5000
+LG,LG,AX565,LG AX565
+LG,LG,AX8600,LG AX8600
+LG,LG,Banter,LG Banter
+LG,LG,C1300,LG C1300
+LG,LG,Chocolate 3,LG Chocolate 3
+LG,LG,Chocolate,LG Chocolate
+LG,LG,Clout,LG Clout
+LG,LG,Cosmos 2,LG Cosmos 2
+LG,LG,Cosmos 3,LG Cosmos 3
+LG,LG,Cosmos,LG Cosmos
+LG,LG,COSMOS Touch,LG COSMOS Touch
+LG,LG,Dare,LG Dare
+LG,LG,Decoy,LG Decoy
+LG,LG,Enact,LG Enact
+LG,LG,Enlighten,LG Enlighten
+LG,LG,Env Touch (VX11000),LG Env Touch (VX11000)
+LG,LG,enV,LG enV
+LG,LG,Envy 2,LG Envy 2
+LG,LG,Envy 3,LG Envy 3
+LG,LG,Exalt 2,LG Exalt 2
+LG,LG,Exalt,LG Exalt
+LG,LG,EXALTLTE,LG EXALTLTE
+LG,LG,Extravert 2,LG Extravert 2
+LG,LG,Extravert,LG Extravert
+LG,LG,FATHOM,LG FATHOM
+LG,LG,G Pad 10,LG G Pad 10
+LG,LG,G Pad 7.0,LG G Pad 7.0
+LG,LG,G Pad 8.3,LG G Pad 8.3
+LG,LG,G Pad X8.3,LG G Pad X8.3
+LG,LG,G2,LG G2
+LG,LG,G2,LG G2
+LG,LG,G3 (VS985),LG G3 (VS985)
+LG,LG,G3 Vista (VS880),LG G3 Vista (VS880)
+LG,LG,G3,LG G3
+LG,LG,G4,LG G4
+LG,LG,G5,LG G5
+LG,LG,G6,LG G6
+LG,LG,GizmoGadget,LG GizmoGadget
+LG,LG,GizmoPal,LG GizmoPal
+LG,LG,Glance,LG Glance
+LG,LG,Glimmer,LG Glimmer
+LG,LG,Helix,LG Helix
+LG,LG,Intuition,LG Intuition
+LG,LG,K20V,LG K20V
+LG,LG,K2B,LG K2B
+LG,LG,K2BLGT,LG K2BLGT
+LG,LG,K4,LG K4
+LG,LG,K8 V,LG K8 V
+LG,LG,Lancet,LG Lancet
+LG,LG,Lucid 2,LG Lucid 2
+LG,LG,Lucid 3,LG Lucid 3
+LG,LG,Lucid,LG Lucid
+LG,LG,LX5450,LG LX5450
+LG,LG,NEX5X16,LG NEX5X16
+LG,LG,NEX5X32,LG NEX5X32
+LG,LG,Octane,LG Octane
+LG,LG,Revere 2,LG Revere 2
+LG,LG,Revere 3,LG Revere 3
+LG,LG,Revere,LG Revere
+LG,LG,Revolution,LG Revolution
+LG,LG,Rhythm,LG Rhythm
+LG,LG,Scoop,LG Scoop
+LG,LG,Spectrum 2,LG Spectrum 2
+LG,LG,Spectrum,LG Spectrum
+LG,LG,Swift,LG Swift
+LG,LG,Terra,LG Terra
+LG,LG,TM510,LG TM510
+LG,LG,URBANE2,LG URBANE2
+LG,LG,USB4GVL600,LG USB4GVL600
+LGV10,LG,V10,LG V10
+LGV111,LG,V111,LG V111
+LGV20,LG,V20,LG V20
+LGV30,LG,V30,LG V30
+LGV40,LG,V40,LG V40
+LGV40ThinQ,LG,V40 ThinQ,LG V40 ThinQ
+LG7ThinQ,LG,G7 ThinQ,LG G7 ThinQ
+LG8ThinQ,LG,G8 ThinQ,LG G8 ThinQ
+LG,LG,Venus,LG Venus
+LG,LG,Versa,LG Versa
+LG,LG,VORTEX,LG VORTEX
+LG,LG,Voyager,LG Voyager
+LG,LG,VS835,LG VS835
+LG,LG,VX 3100,LG VX 3100
+LG,LG,VX-5500,LG VX-5500
+LG,LG,VX1,LG VX1
+LG,LG,VX10,LG VX10
+LG,LG,VX1000,LG VX1000
+LG,LG,VX10000S,LG VX10000S
+LG,LG,VX1000L,LG VX1000L
+LG,LG,VX2000,LG VX2000
+LG,LG,VX3100,LG VX3100
+LG,LG,VX3200,LG VX3200
+LG,LG,VX3300,LG VX3300
+LG,LG,VX3400,LG VX3400
+LG,LG,VX3450,LG VX3450
+LG,LG,VX3450L,LG VX3450L
+LG,LG,VX4400,LG VX4400
+LG,LG,VX4500,LG VX4500
+LG,LG,VX4600,LG VX4600
+LG,LG,VX4650,LG VX4650
+LG,LG,VX4700,LG VX4700
+LG,LG,VX5100,LG VX5100
+LG,LG,VX5200,LG VX5200
+LG,LG,VX5300,LG VX5300
+LG,LG,VX5400,LG VX5400
+LG,LG,VX6000,LG VX6000
+LG,LG,VX6100,LG VX6100
+LG,LG,VX7000,LG VX7000
+LG,LG,VX8000,LG VX8000
+LG,LG,VX8100,LG VX8100
+LG,LG,VX8300,LG VX8300
+LG,LG,VX8350,LG VX8350
+LG,LG,VX8360,LG VX8360
+LG,LG,VX8600,LG VX8600
+LG,LG,VX8610WC,LG VX8610WC
+LG,LG,VX8700,LG VX8700
+LG,LG,VX9000,LG VX9000
+LG,LG,VX9400,LG VX9400
+LG,LG,VX9600,LG VX9600
+LG,LG,VX9800,LG VX9800
+LG,LG,VX9800M,LG VX9800M
+LG,LG,Wave,LG Wave
+lgl31l,lg,access,Lg Access
+lg-p870,lg,escape,Lg Escape
+lg-d950,lg,g flex,Lg G Flex
+lg-v500,lg,g pad,Lg G Pad
+l-01f,lg,g2,Lg G2
+lg-d800,lg,g2 d800,Lg G2 D800
+lg-d801,lg,g2 d801,Lg G2 D801
+lg-d802,lg,g2 d802,Lg G2 D802
+lg-d803,lg,g2 d803,Lg G2 D803
+lg-d805,lg,g2 d805,Lg G2 D805
+lg-d850,lg,g2 d850,Lg G2 D850
+lg-d851,lg,g2 d851,Lg G2 D851
+lg-d852,lg,g2 d852,Lg G2 D852
+lg-d855,lg,g2 d855,Lg G2 D855
+lgls990,lg,g3,Lg G3
+vs985 4g,lg,g3,Lg G3
+unknownlgg4,lg,g4,Lg G4
+unknownlgg5,lg,g5,Lg G5
+vs840 4g,lg,lucid,Lg Lucid
+vs870 4g,lg,lucid 2,Lg Lucid 2
+vs876,lg,lucid 3,Lg Lucid 3
+lg-ms770,lg,motion 4g,Lg Motion 4G
+nexus 4,lg,nexus 4,Lg Nexus 4
+nexus 5,lg,nexus 5,Lg Nexus 5
+lg-d321,lg,optimus,Lg Optimus
+lg-p990,lg,optimus 4,Lg Optimus 4
+lg-p880,lg,optimus 4 x hd,Lg Optimus 4 X Hd
+lgl39c,lg,optimus dynamic,Lg Optimus Dynamic
+lg-vs450pp,lg,optimus exceed,Lg Optimus Exceed
+vs840pp,lg,optimus exceed,Lg Optimus Exceed
+lgms659,lg,optimus f3,Lg Optimus F3
+lg-p875,lg,optimus f5,Lg Optimus F5
+lgms500,lg,optimus f6,Lg Optimus F6
+lgl34c,lg,optimus fuel,Lg Optimus Fuel
+lg-e975,lg,optimus g,Lg Optimus G
+lg-e980,lg,optimus g pro,Lg Optimus G Pro
+lgms323,lg,optimus I70,Lg Optimus I70
+lg-e430,lg,optimus l3,Lg Optimus L3
+lg-e440,lg,optimus l4,Lg Optimus L4
+lg-e610,lg,optimus l5,Lg Optimus L5
+lg-p765,lg,optimus l9,Lg Optimus L9
+lg-f320l,lg,optimus s g2,Lg Optimus S G2
+vs415pp,lg,optimus zone 2,Lg Optimus Zone 2
+lg-ku5400,lg,prada,Lg Prada
+vs920 4g,lg,spectrum,Lg Spectrum
+vs930 4g,lg,spectrum 2,Lg Spectrum 2
+lg-ms870,lg,spirit 4g,Lg Spirit 4G
+lg-p925,lg,thrill 4g,Lg Thrill 4G
+lg-lg730,lg,venice,Lg Venice
+lg-ls840,lg,viper,Lg Viper
+lg-d631,lg,vista g,Lg Vista G
+unknown467,lg,x5,Lg X5
+unknown469,lg,x,Lg X
+lgls740,lg,volt,Lg Volt
+unknown245,lge,motion 4g,Lge Motion 4G
+unknown268,lge,optimus zone 2,Lge Optimus Zone 2
+unknown273,lge,spectrum,Lge Spectrum
+unknown274,lge,spectrum 2,Lge Spectrum 2
+unknown246,lge,spirit 4g,Lge Spirit 4G
+unknown251,lge,thrill 4g,Lge Thrill 4G
+MOTOROLA,Motorola,2950,Motorola 2950
+MOTOROLA,Motorola,2950B,Motorola 2950B 
+MOTOROLA,Motorola,3000VB,Motorola 3000VB
+MOTOROLA,Motorola,388C,Motorola 388C
+MOTOROLA,Motorola,4500,Motorola 4500
+MOTOROLA,Motorola,8000M,Motorola 8000M 
+MOTOROLA,Motorola,950,Motorola 950
+MOTOROLA,Motorola,A840,Motorola A840
+MOTOROLA,Motorola,Adventure,Motorola Adventure 
+MOTOROLA,Motorola,Barrage,Motorola Barrage 
+MOTOROLA,Motorola,C333,Motorola C333
+MOTOROLA,Motorola,C333G,Motorola C333G 
+MOTOROLA,Motorola,C341,Motorola C341
+MOTOROLA,Motorola,C343,Motorola C343
+MOTOROLA,Motorola,C343A,Motorola C343A 
+MOTOROLA,Motorola,CITRUS,Motorola CITRUS
+MOTOROLA,Motorola,DEVOUR,Motorola DEVOUR
+MOTOROLA,Motorola,DROID 2,Motorola DROID 2 
+MOTOROLA,Motorola,DROID 2 Global,Motorola DROID 2 Global
+MOTOROLA,Motorola,DROID 2 Star Wars,Motorola DROID 2 Star Wars 
+MOTOROLA,Motorola,DROID 3,Motorola DROID 3 
+MOTOROLA,Motorola,DROID 4,Motorola DROID 4 
+MOTOROLA,Motorola,DROID Bionic,Motorola DROID Bionic
+MOTOROLA,Motorola,Droid MAXX 2,Motorola Droid MAXX 2
+MOTOROLA,Motorola,Droid Maxx,Motorola Droid Maxx
+MOTOROLA,Motorola,DROID Mini,Motorola DROID Mini
+MOTOROLA,Motorola,Droid Razor 2,Motorola Droid Razor 2 
+MOTOROLA,Motorola,Droid Razor HD Max,Motorola Droid Razor HD Max
+MOTOROLA,Motorola,Droid Razor Max,Motorola Droid Razor Max 
+MOTOROLA,Motorola,Droid Razor M,Motorola Droid Razor M 
+MOTOROLA,Motorola,DROID RAZR HD,Motorola DROID RAZR HD
+MOTOROLA,Motorola,DROID RAZR MAXX HD,Motorola DROID RAZR MAXX HD 
+MOTOROLA,Motorola,Droid RAZR MAXX,Motorola Droid RAZR MAXX 
+MOTOROLA,Motorola,Droid RAZR,Motorola Droid RAZR
+MOTOROLA,Motorola,DROID TURBO 2,Motorola DROID TURBO 2 
+MOTOROLA,Motorola,Droid Turbo,Motorola Droid Turbo
+MOTOROLA,Motorola,Droid Ultra,Motorola Droid Ultra 
+MOTOROLA,Motorola,Droid X,Motorola Droid X 
+MOTOROLA,Motorola,Droid X,Motorola Droid X 
+MOTOROLA,Motorola,DROID X2,Motorola DROID X2
+MOTOROLA,Motorola,DROID XYBOARD 10.1,Motorola DROID XYBOARD 10.1
+MOTOROLA,Motorola,DROID XYBOARD 8.2,Motorola DROID XYBOARD 8.2
+MOTOROLA,Motorola,DROIDPRO,Motorola DROIDPRO
+MOTOROLA,Motorola,DROID,Motorola DROID 
+MOTOROLA,Motorola,E310,Motorola E310
+MOTOROLA,Motorola,E815,Motorola E815
+MOTOROLA,Motorola,Entice,Motorola Entice
+MOTOROLA,Motorola,Evoke,Motorola Evoke 
+MOTOROLA,Motorola,i550,Motorola i550
+MOTOROLA,Motorola,Krave,Motorola Krave 
+MOTOROLA,Motorola,KRZR,Motorola KRZR
+MOTOROLA,Motorola,LiteII,Motorola LiteII
+MOTOROLA,Motorola,MaxxVe,Motorola MaxxVe
+MOTOROLA,Motorola,MILESTNXHB,Motorola MILESTNXHB
+MOTOROLA,Motorola,Milestone,Motorola Milestone 
+MOTOROLA,Motorola,Moto X (1st Gen.),Motorola Moto X (1st Gen.)
+MOTOROLA,Motorola,moto X (2nd Gen),Motorola moto X (2nd Gen)
+MOTOROLA,Motorola,Moto X Pure,Motorola Moto X Pure
+MOTOROLA,Motorola,moto X,Motorola moto X
+MOTOROLA,Motorola,Moto Z Droid,Motorola Moto Z Droid
+MOTOROLA,Motorola,Moto Z Force Droid,Motorola Moto Z Force Droid
+MOTOROLA,Motorola,Moto Z Play,Motorola Moto Z Play
+MOTOROLA,Motorola,MOTOXPURE64,Motorola MOTOXPURE64 
+MOTOROLA,Motorola,MOTOZ2P,Motorola MOTOZ2P
+MOTOROLA,Motorola,MT325,Motorola MT325 
+MOTOROLA,Motorola,Nexus 6,Motorola Nexus 6 
+MOTOROLA,Motorola,P8160,Motorola P8160 
+MOTOROLA,Motorola,P8767,Motorola P8767 
+MOTOROLA,Motorola,Piper,Motorola Piper 
+MOTOROLA,Motorola,Q,Motorola Q
+MOTOROLA,Motorola,Q9C,Motorola Q9C 
+MOTOROLA,Motorola,Q9M,Motorola Q9M 
+MOTOROLA,Motorola,QA30,Motorola QA30
+MOTOROLA,Motorola,Qb,Motorola Qb
+MOTOROLA,Motorola,Quantico,Motorola Quantico
+MOTOROLA,Motorola,Rapture,Motorola Rapture 
+MOTOROLA,Motorola,Razor,Motorola Razor
+MOTOROLA,Motorola,RAZR,Motorola RAZR
+MOTOROLA,Motorola,Razr V3A,Motorola Razr V3A
+MOTOROLA,Motorola,RAZRV3ALAV,Motorola RAZRV3ALAV
+MOTOROLA,Motorola,RAZRV3C,Motorola RAZRV3C 
+MOTOROLA,Motorola,RAZRV3CBT,Motorola RAZRV3CBT 
+MOTOROLA,Motorola,RAZRV3CMG,Motorola RAZRV3CMG
+MOTOROLA,Motorola,RAZRV3CMP,Motorola RAZRV3CMP
+MOTOROLA,Motorola,RAZRV3CMR,Motorola RAZRV3CMR
+MOTOROLA,Motorola,RAZRV3CMS,Motorola RAZRV3CMS
+MOTOROLA,Motorola,RAZRV3CP,Motorola RAZRV3CP
+MOTOROLA,Motorola,RAZRV9M,Motorola RAZRV9M 
+MOTOROLA,Motorola,Rival,Motorola Rival
+MOTOROLA,Motorola,Rokr,Motorola Rokr
+MOTOROLA,Motorola,SC3160,Motorola SC3160
+MOTOROLA,Motorola,SLVRL7C,Motorola SLVRL7C
+MOTOROLA,Motorola,ST3000,Motorola ST3000
+MOTOROLA,Motorola,ST6000,Motorola ST6000
+MOTOROLA,Motorola,ST6500,Motorola ST6500
+MOTOROLA,Motorola,ST7760,Motorola ST7760
+MOTOROLA,Motorola,ST7762,Motorola ST7762
+MOTOROLA,Motorola,ST7860,Motorola ST7860
+MOTOROLA,Motorola,ST7868,Motorola ST7868
+MOTOROLA,Motorola,ST8500,Motorola ST8500
+MOTOROLA,Motorola,T2260,Motorola T2260 
+MOTOROLA,Motorola,T2290,Motorola T2290 
+MOTOROLA,Motorola,T300P,Motorola T300P 
+MOTOROLA,Motorola,T720,Motorola T720
+MOTOROLA,Motorola,T720C,Motorola T720C 
+MOTOROLA,Motorola,T730C,Motorola T730C 
+MOTOROLA,Motorola,T731C,Motorola T731C 
+MOTOROLA,Motorola,T8160,Motorola T8160 
+MOTOROLA,Motorola,Timeport,Motorola Timeport
+MOTOROLA,Motorola,TT250,Motorola TT250 
+MOTOROLA,Motorola,UCII,Motorola UCII
+MOTOROLA,Motorola,ULPRO,Motorola ULPRO 
+MOTOROLA,Motorola,V120C,Motorola V120C 
+MOTOROLA,Motorola,V120C,Motorola V120C
+MOTOROLA,Motorola,V120E,Motorola V120E 
+MOTOROLA,Motorola,V120X,Motorola V120X 
+MOTOROLA,Motorola,V180,Motorola V180
+MOTOROLA,Motorola,V200,Motorola V200
+MOTOROLA,Motorola,V220,Motorola V220
+MOTOROLA,Motorola,V2260,Motorola V2260 
+MOTOROLA,Motorola,V260,Motorola V260
+MOTOROLA,Motorola,V262,Motorola V262
+MOTOROLA,Motorola,V265,Motorola V265
+MOTOROLA,Motorola,V265,Motorola V265
+MOTOROLA,Motorola,V265BLA,Motorola V265BLA 
+MOTOROLA,Motorola,V266,Motorola V266
+MOTOROLA,Motorola,V276,Motorola V276
+MOTOROLA,Motorola,V323,Motorola V323
+MOTOROLA,Motorola,V323i,Motorola V323i
+MOTOROLA,Motorola,V325,Motorola V325
+MOTOROLA,Motorola,V325i,Motorola V325i 
+MOTOROLA,Motorola,V325xi,Motorola V325xi
+MOTOROLA,Motorola,V3620,Motorola V3620 
+MOTOROLA,Motorola,V600,Motorola V600
+MOTOROLA,Motorola,V60C,Motorola V60C
+MOTOROLA,Motorola,V60IC,Motorola V60IC 
+MOTOROLA,Motorola,V60P,Motorola V60P
+MOTOROLA,Motorola,V60S,Motorola V60S
+MOTOROLA,Motorola,V65P,Motorola V65P
+MOTOROLA,Motorola,V65S,Motorola V65S
+MOTOROLA,Motorola,V70,Motorola V70 
+MOTOROLA,Motorola,V710,Motorola V710
+MOTOROLA,Motorola,V810,Motorola V810
+MOTOROLA,Motorola,V8160,Motorola V8160 
+MOTOROLA,Motorola,V860NC,Motorola V860NC
+MOTOROLA,Motorola,VE465,Motorola VE465 
+MOTOROLA,Motorola,VU204,Motorola VU204 
+MOTOROLA,Motorola,W315,Motorola W315
+MOTOROLA,Motorola,W315ASH,Motorola W315ASH
+MOTOROLA,Motorola,W315BLA,Motorola W315BLA
+MOTOROLA,Motorola,W385,Motorola W385
+MOTOROLA,Motorola,W755,Motorola W755
+MOTOROLA,Motorola,XOOM,Motorola XOOM
+MOTOROLA,Motorola,XOOM,Motorola XOOM
+MOTOROLA,Motorola,Z2FORCE,Motorola Z2FORCE
+MOTOROLA,Motorola,Z6C,Motorola Z6C 
+MOTOROLA,Motorola,Z6CX,Motorola Z6CX
+MOTOROLA,Motorola,Z6TV,Motorola Z6TV
+MOTOROLA,Motorola,ZFORCERGD,Motorola ZFORCERGD
+mb526,moto,defy,Moto Defy
+mb865,motorola,atrix,Motorola Atrix
+mb886,motorola,atrix hd,Motorola Atrix Hd
+droid4,motorola,droid 4 iv,Motorola Droid 4 Iv
+droid bionic,motorola,droid bionic,Motorola Droid Bionic
+unknown464,motorola,droid maxx 2,Motorola Droid Maxx 2
+xt1030,motorola,droid mini,Motorola Droid Mini
+droid razr,motorola,droid razr,Motorola Droid Razr
+droid razr hd,motorola,droid razr hd,Motorola Droid Razr Hd
+xt1254,motorola,droid turbo,Motorola Droid Turbo
+xt1080,motorola,droid ultra,Motorola Droid Ultra
+mz617,motorola,droid xy board,Motorola Droid Xy Board
+xt1019,motorola,moto e,Motorola Moto E
+xt1019,motorola,moto e5 play,Motorola moto e5 play
+moto g,motorola,moto g,Motorola Moto G
+moto g6,motorola,moto g6,Motorola moto g6
+moto g7,motorola,moto g7,Motorola moto g7
+moto x,motorola,moto x,Motorola Moto X
+motorola z,motorola,moto z,Motorola Moto Z
+motorola z3,motorola,moto z3,Motorola Moto Z3
+motorola z4,motorola,moto z4,Motorola Moto Z4
+xt1095,motorola,moto x pure edition,Motorola Moto X Pure Edition
+nexus 6,motorola,nexus 6,Motorola Nexus 6
+xt897,motorola,photon q,Motorola Photon Q
+xt910,motorola,razr,Motorola Razr
+xt918,motorola,razr d 1 i,Motorola Razr D 1 I
+xt920,motorola,razr d 3 iii,Motorola Razr D 3 Iii
+xt925,motorola,razr hd,Motorola Razr Hd
+motorola razr maxx,motorola,razr maxx,Motorola Razr Maxx
+xt890,motorola,razri razr i,Motorola Razri Razr I
+mz601,motorola,xoom,Motorola Xoom
+xoom 2,motorola,xoom 2,Motorola Xoom 2
+xoom 3g,motorola,xoom 3g,Motorola Xoom 3G
+xoom 2 me,motorola,xoom ii,Motorola Xoom Ii
+SAMSUNG,Samsung,1900,Samsung1900
+SAMSUNG,Samsung,210,Samsung 210
+SAMSUNG,Samsung,211,Samsung 211
+SAMSUNG,Samsung,3550,Samsung 3550
+SAMSUNG,Samsung,411,Samsung 411
+SAMSUNG,Samsung,6100,Samsung 6100
+SAMSUNG,Samsung,850,Samsung 850
+SAMSUNG,Samsung,A220,Samsung A220
+SAMSUNG,Samsung,A310,Samsung A310
+SAMSUNG,Samsung,A530,Samsung A530
+SAMSUNG,Samsung,A530S,Samsung A530S
+SAMSUNG,Samsung,A570,Samsung A570
+SAMSUNG,Samsung,A610,Samsung A610
+SAMSUNG,Samsung,A630,Samsung A630
+SAMSUNG,Samsung,A645,Samsung A645
+SAMSUNG,Samsung,A650,Samsung A650
+SAMSUNG,Samsung,A670,Samsung A670
+SAMSUNG,Samsung,A690,Samsung A690
+SAMSUNG,Samsung,A790,Samsung A790
+SAMSUNG,Samsung,A795,Samsung A795
+SAMSUNG,Samsung,A850,Samsung A850
+SAMSUNG,Samsung,A870,Samsung A870
+SAMSUNG,Samsung,A890,Samsung A890
+SAMSUNG,Samsung,A930,Samsung A930
+SAMSUNG,Samsung,A950,Samsung A950
+SAMSUNG,Samsung,A950M,Samsung A950M
+SAMSUNG,Samsung,A970,Samsung A970
+SAMSUNG,Samsung,A990,Samsung A990
+SAMSUNG,Samsung,Alias 2,Samsung Alias 2
+SAMSUNG,Samsung,Alias,Samsung Alias
+SAMSUNG,Samsung,ATIV Odyssey,Samsung ATIV Odyssey
+SAMSUNG,Samsung,ATIV SE,Samsung ATIV SE
+SAMSUNG,Samsung,BOOK,Samsung BOOK
+SAMSUNG,Samsung,Brightside,Samsung Brightside
+SAMSUNG,Samsung,Charge,Samsung Charge
+SAMSUNG,Samsung,CONTINUUM,Samsung CONTINUUM
+SAMSUNG,Samsung,Convoy 2,Samsung Convoy 2
+SAMSUNG,Samsung,Convoy 3,Samsung Convoy 3
+SAMSUNG,Samsung,Convoy 4,Samsung Convoy 4
+SAMSUNG,Samsung,Convoy,Samsung Convoy
+SAMSUNG,Samsung,Core Prime,Samsung Core Prime
+SAMSUNG,Samsung,D415,Samsung D415
+SAMSUNG,Samsung,Delve,Samsung Delve
+SAMSUNG,Samsung,E315,Samsung E315
+SAMSUNG,Samsung,Fascinate,Samsung Fascinate
+SAMSUNG,Samsung,Flipshot,Samsung Flipshot
+SAMSUNG,Samsung,Freeform,Samsung Freeform
+SAMSUNG,Samsung,Galaxy J3 V,Samsung Galaxy J3 V
+SAMSUNG,Samsung,Galaxy J3 V 2nd Gen,Samsung Galaxy J3 V 2nd Gen
+SAMSUNG,Samsung,Galaxy J3 V 3rd Gen,Samsung Galaxy J3 V 3rd Gen
+SAMSUNG,Samsung,GALAXY NEXUS,Samsung GALAXY NEXUS
+SAMSUNG,Samsung,Galaxy Note 10.1 Tablet,Samsung Galaxy Note 10.1 Tablet
+SAMSUNG,Samsung,Galaxy Note 10.1,Samsung Galaxy Note 10.1
+SAMSUNG,Samsung,Galaxy Note Pro,Samsung Galaxy Note Pro
+SAMSUNG,Samsung,Galaxy S2,Samsung Galaxy S2
+SAMSUNG,Samsung,S2,Samsung Galaxy S2
+SAMSUNG,Samsung,Galaxy S3 Mini,Samsung Galaxy S3 Mini
+SAMSUNG,Samsung,S3 Mini,Samsung Galaxy S3 Mini
+SAMSUNG,Samsung,Galaxy S3,Samsung Galaxy S3
+SAMSUNG,Samsung,S3,Samsung Galaxy S3
+SAMSUNG,Samsung,Galaxy S4 Mini,Samsung Galaxy S4 Mini
+SAMSUNG,Samsung,S4 Mini,Samsung Galaxy S4 Mini
+SAMSUNG,Samsung,Galaxy S4,Samsung Galaxy S4
+SAMSUNG,Samsung,S4,Samsung Galaxy S4
+SAMSUNG,Samsung,Galaxy S5,Samsung Galaxy S5
+SAMSUNG,Samsung,S5,Samsung Galaxy S5
+SAMSUNG,Samsung,Galaxy S6 Edge Plus,Samsung Galaxy S6 Edge+
+SAMSUNG,Samsung,S6 Edge Plus,Samsung Galaxy S6 Edge+
+SAMSUNG,Samsung,Galaxy S6 Edge +,Samsung Galaxy S6 Edge+
+SAMSUNG,Samsung,Galaxy S6 Edge+,Samsung Galaxy S6 Edge+
+SAMSUNG,Samsung,S6 Edge +,Samsung Galaxy S6 Edge+
+SAMSUNG,Samsung,S6 Edge+,Samsung Galaxy S6 Edge+
+SAMSUNG,Samsung,Galaxy S6 Edge,Samsung Galaxy S6 Edge
+SAMSUNG,Samsung,S6 Edge,Samsung Galaxy S6 Edge
+SAMSUNG,Samsung,Galaxy S6 Active,Samsung Galaxy S6 Active
+SAMSUNG,Samsung,S6 Active,Samsung Galaxy S6 Active
+SAMSUNG,Samsung,Galaxy S6,Samsung Galaxy S6
+SAMSUNG,Samsung,S6,Samsung Galaxy S6
+SAMSUNG,Samsung,Galaxy S7 edge,Samsung Galaxy S7 edge
+SAMSUNG,Samsung,S7 edge,Samsung Galaxy S7 edge
+SAMSUNG,Samsung,Galaxy S7,Samsung Galaxy S7
+SAMSUNG,Samsung,S7,Samsung Galaxy S7
+SAMSUNG,Samsung,Galaxy S8 Plus,Samsung Galaxy S8+
+SAMSUNG,Samsung,S8 Plus,Samsung Galaxy S8+
+SAMSUNG,Samsung,Galaxy S8+,Samsung Galaxy S8+
+SAMSUNG,Samsung,Galaxy S8 +,Samsung Galaxy S8+
+SAMSUNG,Samsung,S8 +,Samsung Galaxy S8+
+SAMSUNG,Samsung,Galaxy S8,Samsung Galaxy S8
+SAMSUNG,Samsung,S8,Samsung Galaxy S8
+SAMSUNG,Samsung,Galaxy S9 Plus,Samsung Galaxy S9+
+SAMSUNG,Samsung,S9 Plus,Samsung Galaxy S9+
+SAMSUNG,Samsung,Galaxy S9+,Samsung Galaxy S9+
+SAMSUNG,Samsung,Galaxy S9 +,Samsung Galaxy S9+
+SAMSUNG,Samsung,S9 +,Samsung Galaxy S9+
+SAMSUNG,Samsung,Galaxy S9,Samsung Galaxy S9
+SAMSUNG,Samsung,S9,Samsung Galaxy S9
+SAMSUNG,Samsung,Galaxy S10,Samsung Galaxy S10
+SAMSUNG,Samsung,S10,Samsung Galaxy S10
+SAMSUNG,Samsung,Galaxy S10e,Samsung Galaxy S10e
+SAMSUNG,Samsung,S10e,Samsung Galaxy S10e
+SAMSUNG,Samsung,S10 5G,Samsung Galaxy S10 5G
+SAMSUNG,Samsung,Galaxy S10 5G,Samsung Galaxy S10 5G
+SAMSUNG,Samsung,Galaxy S10 Plus,Samsung Galaxy S10+
+SAMSUNG,Samsung,S10 Plus,Samsung Galaxy S10+
+SAMSUNG,Samsung,Galaxy S10+,Samsung Galaxy S10+
+SAMSUNG,Samsung,Galaxy S10 +,Samsung Galaxy S10+
+SAMSUNG,Samsung,S10 +,Samsung Galaxy S10+
+SAMSUNG,Samsung,Galaxy A50,Samsung Galaxy A50
+SAMSUNG,Samsung,Galaxy Stellar,Samsung Galaxy Stellar
+SAMSUNG,Samsung,Galaxy Stratosphere II,Samsung Galaxy Stratosphere II
+SAMSUNG,Samsung,Galaxy Tab 2,Samsung Galaxy Tab 2
+SAMSUNG,Samsung,Galaxy Tab 4 8.0,Samsung Galaxy Tab 4 8.0
+SAMSUNG,Samsung,GALAXY TAB 4G LTE,Samsung GALAXY TAB 4G LTE
+SAMSUNG,Samsung,Galaxy Tab 7.7,Samsung Galaxy Tab 7.7
+SAMSUNG,Samsung,Galaxy Tab E,Samsung Galaxy Tab E
+SAMSUNG,Samsung,Galaxy Tab E 8.0,Samsung Galaxy Tab E 8.0
+SAMSUNG,Samsung,Galaxy Tab S (10.1),Samsung Galaxy Tab S (10.1)
+SAMSUNG,Samsung,Galaxy Tab S2,Samsung Galaxy Tab S2
+SAMSUNG,Samsung,Galaxy Tab,Samsung Galaxy Tab
+SAMSUNG,Samsung,Galaxy View,Samsung Galaxy View
+SAMSUNG,Samsung,GALAXYB2B,Samsung GALAXYB2B
+SAMSUNG,Samsung,Gear S Watch,Samsung Gear S Watch
+SAMSUNG,Samsung,Gear S2 ,Samsung Gear S2 
+SAMSUNG,Samsung,GEARS2C,Samsung GEARS2C
+SAMSUNG,Samsung,GEARS3C,Samsung GEARS3C
+SAMSUNG,Samsung,GEARS3F,Samsung GEARS3F
+SAMSUNG,Samsung,Gem,Samsung Gem
+SAMSUNG,Samsung,Gleam,Samsung Gleam
+SAMSUNG,Samsung,Glint,Samsung Glint
+SAMSUNG,Samsung,Glyde,Samsung Glyde
+SAMSUNG,Samsung,GTABS2V2,Samsung GTABS2V2
+SAMSUNG,Samsung,Gusto 2,Samsung Gusto 2
+SAMSUNG,Samsung,Gusto 3,Samsung Gusto 3
+SAMSUNG,Samsung,Gusto,Samsung Gusto
+SAMSUNG,Samsung,GXYNEX16,Samsung GXYNEX16
+SAMSUNG,Samsung,GXYTABE32,Samsung GXYTABE32
+SAMSUNG,Samsung,GXYTB210,Samsung GXYTB210
+SAMSUNG,Samsung,Haven,Samsung Haven
+SAMSUNG,Samsung,Hue 2,Samsung Hue 2
+SAMSUNG,Samsung,Hue,Samsung Hue
+SAMSUNG,Samsung,I300,Samsung I300
+SAMSUNG,Samsung,I600,Samsung I600
+SAMSUNG,Samsung,I700,Samsung I700
+SAMSUNG,Samsung,I700,Samsung I700
+SAMSUNG,Samsung,I730,Samsung I730
+SAMSUNG,Samsung,I760,Samsung I760
+SAMSUNG,Samsung,I830,Samsung I830
+SAMSUNG,Samsung,Illusion,Samsung Illusion
+SAMSUNG,Samsung,Intensity 2,Samsung Intensity 2
+SAMSUNG,Samsung,Intensity 3,Samsung Intensity 3
+SAMSUNG,Samsung,Intensity,Samsung Intensity
+SAMSUNG,Samsung,J3ECLIPSE,Samsung J3ECLIPSE
+SAMSUNG,Samsung,J7VPANDA,Samsung J7VPANDA
+SAMSUNG,Samsung,Juke,Samsung Juke
+SAMSUNG,Samsung,Knack,Samsung Knack
+SAMSUNG,Samsung,Messager Touch,Samsung Messager Touch
+SAMSUNG,Samsung,Muse,Samsung Muse
+SAMSUNG,Samsung,MyShot,Samsung MyShot
+SAMSUNG,Samsung,N150,Samsung N150
+SAMSUNG,Samsung,N150NB,Samsung N150NB
+SAMSUNG,Samsung,N300,Samsung N300
+SAMSUNG,Samsung,N330,Samsung N330
+SAMSUNG,Samsung,Nimbus,Samsung Nimbus
+SAMSUNG,Samsung,Note 2,Samsung Note 2
+SAMSUNG,Samsung,Note 3,Samsung Note 3
+SAMSUNG,Samsung,Note 4,Samsung Note 4
+SAMSUNG,Samsung,Note 5,Samsung Note 5
+SAMSUNG,Samsung,Note 8,Samsung Note 8
+SAMSUNG,Samsung,NOTE7,Samsung NOTE7
+SAMSUNG,Samsung,OMNIA,Samsung OMNIA
+SAMSUNG,Samsung,OMNIA2,Samsung OMNIA2
+SAMSUNG,Samsung,PRESTO,Samsung PRESTO
+SAMSUNG,Samsung,R200,Samsung R200
+SAMSUNG,Samsung,R580,Samsung R580
+SAMSUNG,Samsung,REALITY,Samsung REALITY
+SAMSUNG,Samsung,Saga,Samsung Saga
+SAMSUNG,Samsung,Stratosphere,Samsung Stratosphere
+SAMSUNG,Samsung,Sway,Samsung Sway
+SAMSUNG,Samsung,T300,Samsung T300
+SAMSUNG,Samsung,TABS3,Samsung TABS3
+SAMSUNG,Samsung,Trance,Samsung Trance
+SAMSUNG,Samsung,U340,Samsung U340
+SAMSUNG,Samsung,U410,Samsung U410
+SAMSUNG,Samsung,U430,Samsung U430
+SAMSUNG,Samsung,U520,Samsung U520
+SAMSUNG,Samsung,U540,Samsung U540
+SAMSUNG,Samsung,U550,Samsung U550
+SAMSUNG,Samsung,U620,Samsung U620
+SAMSUNG,Samsung,U810,Samsung U810
+SAMSUNG,Samsung,U960,Samsung U960
+SAMSUNG,Samsung,X105,Samsung X105
+SAMSUNG,Samsung,X495,Samsung X495
+SAMSUNG,Samsung,ZEAL,Samsung ZEAL
+sgh-i927,samsung,captivate glide,Samsung Captivate Glide
+gt-s5830,samsung,galaxy ace,Samsung Galaxy Ace
+gt-i8160,samsung,galaxy ace 2,Samsung Galaxy Ace 2
+gt-s7275r,samsung,galaxy ace 3,Samsung Galaxy Ace 3
+sm-s765c,samsung,galaxy ace style,Samsung Galaxy Ace Style
+samsung-sm-g850a,samsung,galaxy alpha,Samsung Galaxy Alpha
+sm-g386t,samsung,galaxy avant,Samsung Galaxy Avant
+sch-s738c,samsung,galaxy centura,Samsung Galaxy Centura
+gt-i8260,samsung,galaxy core,Samsung Galaxy Core
+sch-r740c,samsung,galaxy discover,Samsung Galaxy Discover
+sgh-t599,samsung,galaxy exhibit,Samsung Galaxy Exhibit
+samsung-sgh-i577,samsung,galaxy exhilarate,Samsung Galaxy Exhilarate
+gt-i8730,samsung,galaxy express,Samsung Galaxy Express
+gt-s6810b,samsung,galaxy fame,Samsung Galaxy Fame
+gt-i9082,samsung,galaxy grand,Samsung Galaxy Grand
+sm-g7102,samsung,galaxy grand 2,Samsung Galaxy Grand 2
+sc-02f,samsung,galaxy j,Samsung Galaxy J
+sgh-t399,samsung,galaxy light,Samsung Galaxy Light
+gt-i9152,samsung,galaxy mega,Samsung Galaxy Mega
+galaxy nexus,samsung,galaxy nexus,Samsung Galaxy Nexus
+gt-i9220,samsung,galaxy note,Samsung Galaxy Note
+gt-n8000,samsung,galaxy note 10.1,Samsung Galaxy Note 10.1
+gt-n8010,samsung,galaxy note 10.2,Samsung Galaxy Note 10.2
+gt-n8013,samsung,galaxy note 10.3,Samsung Galaxy Note 10.3
+gt-n8020,samsung,galaxy note 10.4,Samsung Galaxy Note 10.4
+gt-n7100,samsung,galaxy note 2,Samsung Galaxy Note 2
+samsung-sm-n900a,samsung,galaxy note 3,Samsung Galaxy Note 3
+unknown84.1,samsung,note 3,Samsung Galaxy Note 3
+samsung-sm-n910a,samsung,galaxy note 4,Samsung Galaxy Note 4
+unknown85.1,samsung,note 4,Samsung Galaxy Note 4
+samsung-sm-n920,samsung,galaxy note 5,Samsung Galaxy Note 5
+unknown85.3,samsung,note 5,Samsung Galaxy Note 5
+unknown85.5,samsung,note 6,Samsung Galaxy Note 6
+unknown85.4,samsung,galaxy note 6,Samsung Galaxy Note 6
+unknown463,samsung,galaxy note 7,Samsung Galaxy Note 7
+unknown85.5,samsung,note 7,Samsung Galaxy Note 6
+unknown85.6,samsung,note 8,Samsung Galaxy Note 8
+gt-n5100,samsung,galaxy note 8,Samsung Galaxy Note 8
+SAMSUNGNOTE9,samsung,galaxy note 9,Samsung Galaxy Note 9
+sm-n915t,samsung,galaxy note edge,Samsung Galaxy Note Edge
+gt-n7105,samsung,galaxy note ii,Samsung Galaxy Note Ii
+sm-p900,samsung,galaxy note pro,Samsung Galaxy Note Pro
+gt-n5110,samsung,galaxy note viii,Samsung Galaxy Note Viii
+yp-gp1,samsung,galaxy player 5,Samsung Galaxy Player 5
+gt-s5312b,samsung,galaxy pocket neo,Samsung Galaxy Pocket Neo
+gt-s5301l,samsung,galaxy pocket plus,Samsung Galaxy Pocket Plus
+sph-m840,samsung,galaxy prevail,Samsung Galaxy Prevail
+sph-m950,samsung,galaxy reverb,Samsung Galaxy Reverb
+sgh-i547c,samsung,galaxy rugby,Samsung Galaxy Rugby
+sph-m830,samsung,galaxy rush,Samsung Galaxy Rush
+gt-i9070,samsung,galaxy s advance,Samsung Galaxy S Advance
+sgh-t769,samsung,galaxy s blaze,Samsung Galaxy S Blaze
+samsung-sgh-i547,samsung,galaxy s iv active,Samsung Galaxy S Iv Active
+gt-i9001,samsung,galaxy s plus,Samsung Galaxy S Plus
+sgh-t699,samsung,galaxy s relay,Samsung Galaxy S Relay
+samsung-sm-g900a,samsung,galaxy s v,Samsung Galaxy S V
+samsung-sgh-i727,samsung,galaxy s2 skyrocket,Samsung Galaxy S2 Skyrocket
+sc-03e,samsung,galaxy s3 alpha,Samsung Galaxy S3 Alpha
+samsung-sm-g730a,samsung,galaxy s3 mini,Samsung Galaxy S3 Mini
+gt-i8190,samsung,galaxy s3 siii mini,Samsung Galaxy S3 Siii Mini
+gt-i9295,samsung,galaxy s4 active,Samsung Galaxy S4 Active
+sm-c101,samsung,galaxy s4 zoom,Samsung Galaxy S4 Zoom
+samsung-sm-g870a,samsung,galaxy s5 active,Samsung Galaxy S5 Active
+gt-s7562,samsung,galaxy sdous,Samsung Galaxy Sdous
+gt-i9100g,samsung,galaxy sii,Samsung Galaxy Sii
+gt-i9300t,samsung,galaxy siii,Samsung Galaxy Siii
+gt-i9505,samsung,galaxy siv,Samsung Galaxy Siv
+gt-s5280,samsung,galaxy star,Samsung Galaxy Star
+sch-i415,samsung,galaxy stratosphere,Samsung Galaxy Stratosphere
+gt-p7500,samsung,galaxy tab 10.1,Samsung Galaxy Tab 10.1
+gt-p3100,samsung,galaxy tab 2,Samsung Galaxy Tab 2
+gt-p5100,samsung,galaxy tab 2 10.1,Samsung Galaxy Tab 2 10.1
+gt-p5110,samsung,galaxy tab 2 10.2,Samsung Galaxy Tab 2 10.2
+gt-p5113,samsung,galaxy tab 2 10.3,Samsung Galaxy Tab 2 10.3
+samsung-sm-t217a,samsung,galaxy tab 3,Samsung Galaxy Tab 3
+gt-p5210,samsung,galaxy tab 3 10.1,Samsung Galaxy Tab 3 10.1
+gt-p6200,samsung,galaxy tab 7,Samsung Galaxy Tab 7
+sc-01e,samsung,galaxy tab 7.7,Samsung Galaxy Tab 7.7
+gt-p6210,samsung,galaxy tab 8,Samsung Galaxy Tab 8
+gt-p7310,samsung,galaxy tab 8.10,Samsung Galaxy Tab 8.10
+gt-p7300,samsung,galaxy tab 8.9,Samsung Galaxy Tab 8.9
+gt-p3110,samsung,galaxy tab ii,Samsung Galaxy Tab Ii
+sm-t320,samsung,galaxy tab pro,Samsung Galaxy Tab Pro
+gt-s7560,samsung,galaxy trend,Samsung Galaxy Trend
+sph-l300,samsung,galaxy victory,Samsung Galaxy Victory
+gt-i8150,samsung,galaxy w,Samsung Galaxy W
+gt-s7710,samsung,galaxy xcover 2,Samsung Galaxy Xcover 2
+gt-s6310n,samsung,galaxy young,Samsung Galaxy Young
+gt-s6313t,samsung,galaxy young dous tv,Samsung Galaxy Young Dous Tv
+nexus 10,samsung,nexus 10,Samsung Nexus 10
+nexus s,samsung,nexus s,Samsung Nexus S
+nexus s 4g,samsung,nexus s 4g,Samsung Nexus S 4G
+walkman,sony,walkman,Sony Corporation Walkman
+so-03d,sony ericsson,xperia acro hd,Sony Ericsson Xperia Acro Hd
+lt18i,sony ericsson,xperia arc s,Sony Ericsson Xperia Arc S
+lt28i ,sony ericsson,xperia ion,Sony Ericsson Xperia Ion
+lt28h,sony ericsson,xperia ion hspa,Sony Ericsson Xperia Ion Hspa
+mk16a,sony ericsson,xperia pro,Sony Ericsson Xperia Pro
+lt26i,sony ericsson,xperia s,Sony Ericsson Xperia S
+sony tablet s,sony,tablet s,Sony Tablet S
+c1904,sony,xperia,Sony Xperia
+so-04e,sony,xperia a,Sony Xperia A
+so-01e,sony,xperia ax,Sony Xperia Ax
+c2305,sony,xperia c,Sony Xperia C
+xperia e dual,sony,xperia e dual,Sony Xperia E Dual
+d2004,sony,xperia e1,Sony Xperia E1
+,sony,xperia go,Sony Xperia Go
+so-04d,sony,xperia gx,Sony Xperia Gx
+st26a,sony,xperia j,Sony Xperia J
+c2104,sony,xperia l,Sony Xperia L
+d2306,sony,xperia m2,Sony Xperia M2
+st23i,sony,xperia miro,Sony Xperia Miro
+lt22i,sony,xperia p,Sony Xperia P
+xperia sola,sony,xperia sola,Sony Xperia Sola
+mt27i,sony,xperia solo,Sony Xperia Solo
+c5303,sony,xperia sp,Sony Xperia Sp
+lt30a,sony,xperia t,Sony Xperia T
+d5316n,sony,xperia t2,Sony Xperia T2
+d5106,sony,xperia t3,Sony Xperia T3
+sgp311,sony,xperia tablet z,Sony Xperia Tablet Z
+st21i,sony,xperia tipo,Sony Xperia Tipo
+st21i2,sony,xperia tipo dual,Sony Xperia Tipo Dual
+st25i,sony,xperia u,Sony Xperia U
+sol22,sony,xperia ul,Sony Xperia Ul
+lt25i,sony,xperia v,Sony Xperia V
+c6603,sony,xperia z,Sony Xperia Z
+c6833,sony,xperia z ultra,Sony Xperia Z Ultra
+c6902,sony,xperia z1,Sony Xperia Z1
+d6503,sony,xperia z2,Sony Xperia Z2
+sgp511,sony,xperia z2 tablet,Sony Xperia Z2 Tablet
+d5803,sony,xperia z3,Sony Xperia Z3
+c6506,sony,xperia zl,Sony Xperia Zl
+c5502,sony,xperia zr,Sony Xperia Zr
+pixel,Google,Pixel,Google Pixel
+pixelXL,Google,Pixel XL,Google Pixel XL
+pixel2,Google,Pixel 2,Google Pixel 2
+pixel2XL,Google,Pixel 2 XL,Google Pixel 2 XL
+pixel3,Google,Pixel 3,Google Pixel 3
+pixel3XL,Google,Pixel 3 XL,Google Pixel 3 XL
+pixel3a,Google,Pixel 3a,Google Pixel 3a
+pixel3aXL,Google,Pixel 3a XL,Google Pixel 3a XL
+kyoceracadence,Kyocera,Cadence,Kyocera Cadence LTE
+kyoceraduraforce,Kyocera,Duraforce,Kyocera Duraforce
+kyoceraduraxv,Kyocera,DuraXV,Kyocera DuraXV LTE
+verizonellipsis8,Verizon,Ellipsis 8,Verizon Ellipsis 8
+asuszenfonezoom,Asus,ZenFone Zoom,Asus ZenFone Zoom
+asuszenfonemax,Asus,ZenFone Max,Asus ZenFone Max
+asuszenfonear,Asus,ZenFone AR,Asus ZenFone AR
+asuszenfonelive,Asus,ZenFone Live,Asus ZenFone Live
+asuszenfonev,Asus,ZenFone V,Asus ZenFone V Live
+asuszenpadz8s,Asus,ZenPad Z8s,Asus ZenPad Z8s
+asuszenpadz10,Asus,ZenPad Z10,Asus ZenPad Z10
+redhydrogenOne,RED,Hydrogen One,RED HYDROGEN ONE
+alcatelAvalonV,Alcatel,AVALON V,Alcatel AVALON V
+palmphone,Palm,Phone,Palm Phone
+sonimxp8,Sonim,XP8,Sonim XP8
